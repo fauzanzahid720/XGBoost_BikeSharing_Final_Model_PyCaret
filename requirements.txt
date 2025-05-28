@@ -1,5 +1,5 @@
 streamlit>=1.30.0
-pandas<2.2.0 
+pandas
 # atau biarkan kosong agar PyCaret 3.3.2 yang menentukan versi Pandas, 
 # tapi memberi batasan atas yang sesuai dengan PyCaret mungkin lebih aman.
 # Anda bisa coba juga tanpa batasan versi Pandas sama sekali terlebih dahulu.
