@@ -1,8 +1,7 @@
 streamlit>=1.30.0
-pandas>=2.2.0 # Coba pertahankan versi modern jika tidak ada konflik langsung dengan PyCaret 3.3.2
+pandas # Biarkan PyCaret yang menentukan, atau coba pandas<2.2.0
 numpy>=1.26.0
-scikit-learn>=1.3.0 
+scikit-learn>=1.3.0
 xgboost>=2.0.0
-pycaret==3.3.2 # VERSI SPESIFIK INI PENTING
-ipywidgets>=8.0.0 
-# Jangan sertakan htmlmin==0.1.12 kecuali jika mutlak diperlukan dan Anda tahu itu kompatibel
+pycaret==3.3.2
+ipywidgets>=8.0.0
