@@ -1,8 +1,8 @@
 streamlit>=1.30.0
-pandas>=2.2.0
-numpy>=1.26.0
+pandas # HAPUS batasan versi >=2.2.0, biarkan PyCaret yang menentukan
+numpy>=1.26.0 # NumPy biasanya lebih fleksibel, versi ini seharusnya ok
 scikit-learn>=1.3.0
 xgboost>=2.0.0
 pycaret==3.3.2
 ipywidgets>=8.0.0
-htmlmin==0.1.12
+# JANGAN cantumkan htmlmin==0.1.12 di sini
