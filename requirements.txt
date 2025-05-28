@@ -1,8 +1,8 @@
-streamlit>=1.30.0 # Gunakan versi terbaru atau yang stabil
-pandas>=2.2.0    # Coba versi pandas yang lebih baru yang mungkin punya wheels untuk Python 3.13
-numpy>=1.26.0    # Coba versi numpy yang lebih baru
+streamlit>=1.30.0
+pandas>=2.2.0
+numpy>=1.26.0
 scikit-learn>=1.3.0
 xgboost>=2.0.0
-pycaret>=3.3.0   # Gunakan versi PyCaret terbaru. Ini KUNCI untuk menyelesaikan masalah htmlmin.
+pycaret==3.3.2
 ipywidgets>=8.0.0
-# Hapus htmlmin dan pandas-profiling secara eksplisit jika ada, biarkan PyCaret yang mengatur dependensinya.
+htmlmin==0.1.12
