@@ -1,15 +1,10 @@
-streamlit>=1.30.0
-pandas<2.2.0 
-# PyCaret 3.3.2 membutuhkan pandas versi ini. 
-# Kita berharap ada pre-compiled wheel untuk Python 3.13 Linux, 
-# atau build dari source berhasil.
-numpy>=1.26.0 
-# Versi NumPy yang lebih baru seharusnya memiliki wheels yang lebih baik.
-# Jika ini menyebabkan masalah build, coba versi spesifik yang lebih tua sedikit 
-# yang diketahui kompatibel dengan pandas<2.2.0 dan Python 3.13.
-scikit-learn>=1.3.0 
-xgboost>=2.0.0
-pycaret==3.3.2 
-ipywidgets>=8.0.0
-# Pastikan TIDAK ADA htmlmin==0.1.12 di sini.
-# PyCaret 3.3.2 seharusnya tidak lagi menarik dependensi yang menyebabkan masalah 'cgi'.
+streamlit==1.33.0 # Coba versi Streamlit yang sedikit lebih tua tapi stabil
+pandas==2.2.2   # Versi Pandas modern yang seharusnya punya wheels manylinux_2_17 untuk Python 3.13
+numpy==1.26.4   # Versi NumPy modern yang seharusnya punya wheels manylinux_2_17 untuk Python 3.13
+scikit-learn==1.4.0 # Versi scikit-learn yang lebih baru
+xgboost==2.0.3     # Versi XGBoost yang stabil
+ipywidgets>=8.0.0  # Bisa dicoba untuk dihapus jika masih bermasalah, tapi biasanya aman
+
+# JANGAN sertakan pycaret
+# JANGAN sertakan htmlmin
+# JANGAN sertakan pmdarima
