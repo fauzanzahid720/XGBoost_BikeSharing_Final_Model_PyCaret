@@ -15,8 +15,8 @@ st.set_page_config(
     layout="centered",
     initial_sidebar_state="collapsed",
     menu_items={
-        'Get Help': 'fauzanzahid720@gmail.com', # Ganti dengan email tim Anda
-        'Report a bug': "mailto:fauzanzahid720@gmail.com",    # Ganti dengan email tim Anda
+        'Get Help': 'mailto:fauzanzahid720@gmail.com', # PERBAIKAN: Tambahkan 'mailto:'
+        'Report a bug': "mailto:fauzanzahid720@gmail.com",
         'About': "### Aplikasi Prediksi Permintaan Sepeda\nTim COGNIDATA\nPowered by XGBoost & PyCaret."
     }
 )
